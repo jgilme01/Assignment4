@@ -26,6 +26,7 @@
             <td> <asp:Label ID="ErrorLabel" runat="server" Text=""></asp:Label> </td>
         </tr>
     </table>
+        <asp:HyperLink ID="HyperLink" runat="server"><a href="Register.aspx">Need to register?</a></asp:HyperLink>
     </div>
     </form>
 </body>
