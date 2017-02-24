@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7c92198607f34c7993454715a7788095" Name="Diagram1">
+        <EntityTypeShape EntityType="Community_AssistModel.Contact" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.Donation" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.LoginHistoryTable" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.Person" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.PersonAddress" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
+        <AssociationConnector Association="Community_AssistModel.FK__Contact__PersonK__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Donation__Person__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__LoginHist__Perso__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__PersonAdd__Perso__4E88ABD4" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
